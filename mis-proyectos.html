@@ -1,0 +1,184 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/normalize.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Anton&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://unpkg.com/leaflet@1.8.0/dist/leaflet.css"
+        integrity="sha512-hoalWLoI8r4UszCkZ5kL8vayOGVae1oxXe/2A4AO6J9+580uKHDO3JdHb7NzwwzK5xr/Fs0W40kiNHxM9vyTtQ=="
+        crossorigin="" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.2/css/all.min.css"
+        integrity="sha512-1sCRPdkRXhBV2PBLUdRb4tMg1w2YPf37qatUFeS7zlBy7jJI8Lf4VHwWfZZfpXtYSLy85pkm9GaYVYMfw5BC1A=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="css/estilos.css">
+    <script src="https://unpkg.com/leaflet@1.8.0/dist/leaflet.js"
+        integrity="sha512-BB3hKbKWOc9Ez/TAwyWxNXeoV9c1v6FIeYiBieIWkpLjauysF18NzgR1MBNBXf8/KABdlkX68nAhlwcDFLGPCQ=="
+        crossorigin="" defer></script>
+    <title> &#x3c;DevElianLvX/></title>
+</head>
+
+<body>
+
+    <main class="bg-main">
+        <div class="contenedor">
+
+            <div class="contenido">
+                <div class="contenedorPresentacion">
+
+                    <h2>Hola Mundo, <span class="titulo">Mis Proyectos</span></h2>
+
+                    <!-- Contenido de Mis Proyectos  -->
+                    <div class="mis-proyectos">
+
+                        <div><!-- Proyuecto Risario Castellanos -->
+                            <h4>Rosario Castellanos Software</h4>
+                            <img class="open-button imagen-misproyectos" id="open-button" src="/images/rosario_castellanos.png" alt="Software Rosario Castellanos">
+
+                            <div class="window-background" id="window-background">
+                                <div class="window-container" id="window-container">
+                                    <button class="close-button" id="close-button">
+                                        X
+                                    </button>
+                                    <h1>Software Primaria</h1>
+                                    <p>Rosario Castellanos Tuxtla</p>
+                                    <p>
+                                        Este es unn software que elaboramos como residencia con un compañero
+                                        este proyecto fue hecho principalmente con <strong>Java</strong> y <strong>MariaDB</strong>
+                                        actualmente esta en uso en dicha primaria que esta en tuxtla gutierrez, Chiapas. Administra a 
+                                        todos los alumnos asi como a todos los profesores y empleados de la primaria.
+                                        Genera los siguientes documentos:<br>
+                                        - Constancias.<br>
+                                        - Boletas.<br>
+                                        - Reconocimientos.
+                                        etc
+                                    </p>
+
+                                    <hr>
+                                    <a href="images/rosario_castellanos.png">
+                                        <img class="imagen-popup" src="images/rosario_castellanos.png" alt="Software Rosario Castellanos Imagen">
+                                    </a>
+                                </div>
+                            </div>
+
+                        </div>
+
+                        <div> <!-- Proyecto de BitQuark -->
+                            <h4>Acqua Lavanderias</h4>
+                            <img class="open-button imagen-misproyectos" id="open-button2" src="/images/acqua_lavanderias.png" alt="Software Acqua Lavanderias">
+
+                            <div class="window-background" id="window-background2">
+                                <div class="window-container" id="window-container2">
+                                    <button class="close-button" id="close-button2">
+                                        X
+                                    </button>
+                                    <h1>Acqua Lavanderias</h1>
+                                    <p>Me contrato BitQuark</p>
+                                    <p>
+                                        Este fue un proyecto un negocio que se dedica al lavado de ropas y otros servicios
+                                        colabore en el resientemente como desarrollador <strong>Backend</strong> con
+                                        el framework <strong>Laravel</strong> el <strong>FrontEnd</strong> lo hiso otro desarrollador con
+                                        <strong>Angular</strong> actualemente este software esta en servicio.
+                                    </p>
+
+                                    <hr>
+                                    <a href="images/acqua_lavanderias.png">
+                                        <img class="imagen-popup" src="images/acqua_lavanderias.png" alt="Acqua Lavanderias">
+                                    </a>
+                                </div>
+                            </div>
+
+                        </div>
+
+                        <div>
+                            <h4>Devstagram</h4>
+                            <img class="open-button imagen-misproyectos" id="open-button3" src="/images/devstagram.png" alt="Devstagram">
+
+                            <div class="window-background" id="window-background3">
+                                <div class="window-container" id="window-container3">
+                                    <button class="close-button" id="close-button3">
+                                        X
+                                    </button>
+                                    <h1>Proyecto Personal Devstagram</h1>
+                                    <p>
+                                        Es un pequeño clon de instagram que implemente con <strong>Laravel</strong>
+                                        con algunas librerias de JS como <strong>DropZone</strong> y de php <strong>Intervention Image</strong> util para
+                                        procesesar imagenes, todas las vistas fueron renderizadas con blade y en este caso
+                                        para el diseño tambien tiene implementado <strong>Tailwind Css</strong> un Framework
+                                        de Css bastante interesante y agil.
+                                    </p>
+
+                                    <hr>
+                                    <a href="images/devstagram.png">
+                                        <img class="imagen-popup" src="images/devstagram.png" alt="Acqua Lavanderias">
+                                    </a>
+                                </div>
+                            </div>
+
+                        </div>
+
+                        <div>
+                            <h4>App-Salon</p>
+                            <img class="open-button imagen-misproyectos" id="open-button4" src="/images/app-salon.png" alt="App Salon imagen">
+
+                            <div class="window-background" id="window-background4">
+                                <div class="window-container" id="window-container4">
+                                    <button class="close-button" id="close-button4">
+                                        X
+                                    </button>
+                                    <h1>Barberia</h1>
+                                    <p class="font-inherit">
+                                        Una aplicacion web para poder agendar citas en una Barberia
+                                        es un proyecto que realice en un curso bastante interesante,
+                                        realizado con el patron de arquitectura <strong>MVC</strong> algunos
+                                        de los enpoints de esta app se comunican por medio de una API se realiso
+                                        con <strong>PHP</strong> para el Backend y <strong>Html, Css y JS</strong> para el FrontEnd
+                                        tambien se utiliso <strong>Gulp</strong> para automatizar un poco mas el trabajo del FrontEnd.
+                                    </p>
+
+                                    <hr>
+                                    <a href="images/devstagram.png">
+                                        <img class="imagen-popup" src="images/devstagram.png" alt="Acqua Lavanderias">
+                                    </a>
+                                </div>
+                            </div>
+
+                        </div>
+
+                    </div>
+
+                    <hr>
+                    <p>Visita mi - <a href="https://github.com/ElianLvX" target="_blank">GitHub</a></p>
+
+                </div>
+
+                <nav class="menu">
+                    <img src="/images/i am.jpg" alt="???">
+                    <a href="index.html">
+                        <i class="fa-solid fa-house"></i>
+                        Inicio
+                    </a>
+                    <a href="mis-proyectos.html">
+                        <i class="fa-solid fa-diagram-project"></i>
+                        Mis Proyectos
+                    </a>
+                    <a href="contacto.html">
+                        <i class="fa-solid fa-address-book"></i>
+                        Contacto
+                    </a>
+                    <a href="/files/CV Deveoper ElianLvX.pdf" download="Mi-Cv">
+                        <i class="fa-solid fa-file"></i>
+                        Mi Cv
+                    </a>
+                </nav>
+            </div>
+
+        </div>
+    </main>
+
+    <script src="js/mis-proyectos.js"></script>
+</body>
+</html>
